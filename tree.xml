@@ -1,0 +1,36 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phyloxml.org" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="true">
+    <clade>
+      <name>Inner3</name>
+      <branch_length>0</branch_length>
+      <clade>
+        <name>Inner2</name>
+        <branch_length>0.014181190397895421</branch_length>
+        <clade>
+          <name>Leopardus geoffroyi</name>
+          <branch_length>0.12491779020059193</branch_length>
+        </clade>
+        <clade>
+          <name>Inner1</name>
+          <branch_length>0.01829168036829995</branch_length>
+          <clade>
+            <name>Homo sapiens</name>
+            <branch_length>0.7544667324345062</branch_length>
+          </clade>
+          <clade>
+            <name>Pipistrellus kuhlii</name>
+            <branch_length>0.13109722678943325</branch_length>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <name>Lemur catta</name>
+        <branch_length>0.12245149621834919</branch_length>
+      </clade>
+      <clade>
+        <name>Camelus bactrianus</name>
+        <branch_length>0.12516441959881616</branch_length>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>
