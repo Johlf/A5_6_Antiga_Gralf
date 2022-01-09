@@ -1,4 +1,5 @@
 #The assignment was discussed with my colleagues Oliver Strauss and Thresa Plumer
+#https://github.com/Johlf/A5_6_Antiga_Gralf
 import Bio
 import pandas as pd
 import matplotlib
