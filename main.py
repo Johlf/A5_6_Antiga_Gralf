@@ -1,4 +1,4 @@
-#The assignment were discussed with my colleagues Oliver Strauss and Thresa Plumer
+#The assignment was discussed with my colleagues Oliver Strauss and Thresa Plumer
 import Bio
 import pandas as pd
 import matplotlib
@@ -60,12 +60,12 @@ if __name__ == '__main__':
         organism.append(orthrec[x].annotations["organism"])
         df.loc[x, 'Organism'] = orthrec[x].annotations["organism"]
         length.append(len(orthrec[x].seq))
-        df.loc[x, 'Sequence length'] = len(orthrec[x].seq)
+        df.loc[x, 'Sequence length'] = str(len(orthrec[x].seq))
         seq.append(orthrec[x].seq)
         df.loc[x, 'Sequence'] = orthrec[x].seq
     print(df)
 
-    df.to_csv("standard.csv")
+    df.to_csv("standard.csv", sep = ";")
     #https: // biopython.org / docs / 1.75 / api / Bio.SeqUtils.html
     GCPercentage=[]
     for x in range(len(seq)):
@@ -121,5 +121,5 @@ if __name__ == '__main__':
     #adds instability and aromaticity to the already existing table
     df['Instability']= Instability
     df['Aromaticity'] = Aromaticity
-    df.to_csv("standard.csv")
+    df.to_csv("standard.csv", sep =";")
     print(df)
